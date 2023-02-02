@@ -1,3 +1,6 @@
+import Register from './Register';
+import { Link } from 'react-router-dom';
+
 function Login() {
   return (
     <div>
@@ -10,7 +13,9 @@ function Login() {
             <input type="password" id="userPw" placeholder="비밀번호를 입력해주세요" />
             <button id="submitBtn">로그인</button>
           </form>
-          <p>회원가입</p>
+          <Link to="/Register" element={<Register />}>
+            <p>회원가입</p>
+          </Link>
         </div>
       </div>
     </div>
