@@ -22,9 +22,6 @@ function Register() {
                 placeholder="비밀번호를 한 번 더 입력하세요"
               />
             </div>
-            <div className={styles.email_box}>
-              <input className={styles.input_email} id="userEmail" placeholder="이메일을 입력하세요" />
-            </div>
             <div>
               <button className={styles.submitBtn}>회원가입</button>
             </div>
