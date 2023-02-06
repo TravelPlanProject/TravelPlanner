@@ -1,0 +1,603 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.header {
+  width: 100%;
+  height: 90px;
+  background: rgba(241, 252, 255, 1);
+  position: relative;
+  overflow: hidden;
+}
+
+.goMain {
+  width: 197px;
+  height: 90px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 300px;
+  overflow: hidden;
+}
+
+.Main {
+  width: 74px;
+  color: rgba(0, 0, 0, 1);
+  position: absolute;
+  top: 20px;
+  font-weight: 500;
+  font-size: 36px;
+  opacity: 1;
+  text-align: center;
+  text-decoration: none;
+}
+
+.goRoulette {
+  width: 88px;
+  height: 90px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 440px;
+  overflow: hidden;
+}
+
+.Roulette {
+  width: 61px;
+  color: black;
+  position: absolute;
+  top: 34px;
+  font-weight: 500;
+  font-size: 18px;
+  opacity: 1;
+  text-align: center;
+  text-decoration: none;
+}
+
+.goRecord {
+  width: 88px;
+  height: 90px;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 520px;
+  overflow: hidden;
+}
+
+.Record {
+  width: 61px;
+  color: black;
+  position: absolute;
+  top: 34px;
+  left: 14px;
+  font-size: 18px;
+  opacity: 1;
+  text-align: center;
+  text-decoration: none;
+}
+
+.goRegister {
+  width: 88px;
+  height: 90px;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 600px;
+  overflow: hidden;
+}
+
+.Register {
+  width: 61px;
+  color: black;
+  position: absolute;
+  top: 34px;
+  left: 14px;
+  font-size: 18px;
+  opacity: 1;
+  text-align: center;
+  text-decoration: none;
+}
+
+.goUser {
+  width: 88px;
+  height: 90px;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  right: 324px;
+  overflow: hidden;
+}
+
+.user {
+  width: 32px;
+  height: 32px;
+  opacity: 1;
+  position: absolute;
+  top: 30px;
+  left: 32px;
+  overflow: hidden;
+}
+
+.mainScreen {
+  width: 100%;
+  height: 500px;
+  background: linear-gradient(45deg, #56ccf2, #2f80ed);
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+
+.timeblockExample {
+  width: 413px;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 240px;
+  overflow: hidden;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+}
+
+.comment {
+  width: 530px;
+  color: rgba(255, 255, 255, 1);
+  position: absolute;
+  top: 180px;
+  right: 506px;
+  text-shadow: 0px 5px 5px rgba(0, 0, 0, 0.25);
+  font-weight: bold;
+  font-size: 40px;
+  opacity: 1;
+  text-align: center;
+}
+
+.bestGoing {
+  z-index: 1;
+  width: 1380px;
+  height: 460px;
+  left: 240px;
+  background: white;
+  opacity: 1;
+  margin-top: 20px;
+  position: absolute;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.bestGoingFrame {
+  width: 100%;
+  height: 370px;
+  background-color: white;
+  opacity: 1;
+  top: 60px;
+  left: 0px;
+  position: absolute;
+  overflow: hidden;
+}
+
+.kyunghwaPngFrame {
+  width: 232px;
+  height: 330px;
+  margin: 10px;
+  opacity: 1;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.kyunghwaPng {
+  width: 232px;
+  height: 330px;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-radius: 10px;
+  overflow: hidden;
+  filter: brightness(80%);
+}
+
+.kyunghwaComment1 {
+  width: 130px;
+  color: white;
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  text-shadow: 2px 5px 4px rgba(0, 0, 0, 0.25);
+  font-weight: bold;
+  font-size: 24px;
+  opacity: 1;
+  text-align: center;
+}
+
+.kyunghwaDetail {
+  width: 80px;
+  height: 30px;
+  background: rgba(255, 255, 255, 1);
+  opacity: 1;
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+
+.kyunghwaComment2 {
+  width: 65px;
+  color: black;
+  position: absolute;
+  bottom: 22px;
+  right: 22px;
+  font-weight: 900;
+  font-size: 12px;
+  opacity: 1;
+  text-align: center;
+}
+
+.busanPngFrame {
+  width: 232px;
+  height: 330px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 30px;
+  left: 300px;
+  overflow: hidden;
+}
+
+.busanPng {
+  width: 232px;
+  height: 330px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-radius: 10px;
+  overflow: hidden;
+  filter: brightness(80%);
+}
+
+.busanComment1 {
+  width: 130px;
+  color: white;
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  text-shadow: 2px 5px 4px rgba(0, 0, 0, 0.25);
+  font-weight: 900;
+  font-size: 24px;
+  opacity: 1;
+  text-align: center;
+}
+
+.busanDetail {
+  width: 80px;
+  height: 30px;
+  background: rgba(255, 255, 255, 1);
+  opacity: 1;
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+
+.busanComment2 {
+  width: 65px;
+  color: black;
+  position: absolute;
+  bottom: 22px;
+  right: 22px;
+  font-weight: 900;
+  font-size: 12px;
+  opacity: 1;
+  text-align: center;
+}
+
+.dalaengPngFrame {
+  width: 232px;
+  height: 330px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 30px;
+  left: 570px;
+  overflow: hidden;
+}
+
+.dalaengPng {
+  width: 232px;
+  height: 330px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-radius: 10px;
+  overflow: hidden;
+  filter: brightness(80%);
+}
+
+.dalaengComment1 {
+  width: 130px;
+  color: white;
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  text-shadow: 2px 5px 4px rgba(0, 0, 0, 0.25);
+  font-weight: 900;
+  font-size: 24px;
+  opacity: 1;
+  text-align: center;
+}
+
+.dalaengDetail {
+  width: 80px;
+  height: 30px;
+  background: rgba(255, 255, 255, 1);
+  opacity: 1;
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+
+.dalaengComment2 {
+  width: 65px;
+  color: black;
+  position: absolute;
+  bottom: 22px;
+  right: 22px;
+  font-weight: 900;
+  font-size: 12px;
+  opacity: 1;
+  text-align: center;
+}
+
+.kkotjiPngFrame {
+  width: 232px;
+  height: 330px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 30px;
+  left: 840px;
+  overflow: hidden;
+}
+
+.kkotjiPng {
+  width: 232px;
+  height: 330px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-radius: 10px;
+  overflow: hidden;
+  filter: brightness(80%);
+}
+
+.kkotjiComment1 {
+  width: 145px;
+  color: white;
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  text-shadow: 2px 5px 4px rgba(0, 0, 0, 0.25);
+  font-weight: 900;
+  font-size: 24px;
+  opacity: 1;
+  text-align: center;
+}
+
+.kkotjiDetail {
+  width: 80px;
+  height: 30px;
+  background: rgba(255, 255, 255, 1);
+  opacity: 1;
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+
+.kkotjiComment2 {
+  width: 65px;
+  color: black;
+  position: absolute;
+  bottom: 22px;
+  right: 22px;
+  font-weight: 900;
+  font-size: 12px;
+  opacity: 1;
+  text-align: center;
+}
+
+.sungsanPngFrame {
+  width: 232px;
+  height: 330px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 30px;
+  left: 1110px;
+  overflow: hidden;
+}
+
+.sungsanPng {
+  width: 232px;
+  height: 330px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-radius: 10px;
+  overflow: hidden;
+  filter: brightness(80%);
+}
+
+.sungsanComment1 {
+  width: 145px;
+  color: white;
+  position: absolute;
+  top: 15px;
+  left: 0px;
+  text-shadow: 2px 5px 4px rgba(0, 0, 0, 0.25);
+  font-weight: 900;
+  font-size: 24px;
+  opacity: 1;
+  text-align: center;
+}
+
+.sungsanDetail {
+  width: 80px;
+  height: 30px;
+  background: rgba(255, 255, 255, 1);
+  opacity: 1;
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+
+.sungsanComment2 {
+  width: 65px;
+  color: black;
+  position: absolute;
+  bottom: 22px;
+  right: 22px;
+  font-weight: 900;
+  font-size: 12px;
+  opacity: 1;
+  text-align: center;
+  text-decoration: none;
+}
+
+.detailBtn {
+  text-decoration: none;
+}
+
+.bestGoingComment {
+  width: 145px;
+  color: rgba(0, 0, 0, 1);
+  top: 30px;
+  left: 30px;
+  font-weight: 900;
+  font-size: 24px;
+  opacity: 1;
+  text-align: center;
+  position: absolute;
+}
+
+.secondFrame {
+  width: 100%;
+  height: 2500px;
+  background: rgba(241, 252, 255, 1);
+  z-index: 0;
+  opacity: 1;
+  position: absolute;
+  top: 590px;
+  left: 0px;
+  overflow: hidden;
+}
+
+.kakaoFrame {
+  width: 800px;
+  height: 100px;
+  background: rgba(247, 230, 0, 1);
+  opacity: 1;
+  position: absolute;
+  z-index: 1;
+  top: 1100px;
+  left: 530px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.kakaoComment1 {
+  width: 160px;
+  color: black;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  font-weight: 900;
+  font-size: 16px;
+  opacity: 1;
+  text-align: center;
+}
+
+.kakaoComment2 {
+  width: 250px;
+  color: black;
+  position: absolute;
+  top: 50px;
+  left: 20px;
+  font-weight: 900;
+  font-size: 24px;
+  opacity: 1;
+  text-align: center;
+}
+
+.kakaoDetail {
+  width: 60px;
+  height: 30px;
+  background: white;
+  opacity: 1;
+  position: absolute;
+  top: 59px;
+  left: 725px;
+  border-radius: 7px;
+  overflow: hidden;
+}
+
+.kakaoDetailBtn {
+  width: 50px;
+  position: absolute;
+  color: black;
+  top: 63px;
+  left: 732px;
+  font-weight: 900;
+  font-size: 16px;
+  text-align: center;
+}
